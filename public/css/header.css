@@ -150,29 +150,29 @@ p{
         height: 450px;
     }
     .skill-image{
-        margin-left: 200px;
+        margin-left: 100px;
         margin-top: 50px;
         font-family: 'Roboto';
         font-size: 25px;
        
     }
     .image_1{
-        width:275px;
-        height:275px;
+        width:220px;
+        height:220px;
         margin-top: 60px;
         margin-left: 100px;
         margin-right: 80px;
     }
     .image_2{
-        width:275px;
-        height:275x;
+        width:220px;
+        height:220x;
         margin-top: 60px;
         margin-left: 100px;
         margin-right: 80px;
     }
     .image_3{
-        width:275px;
-        height:275px;
+        width:220px;
+        height:220px;
         margin-top: 60px;
         margin-left: 100px;
         margin-right: 80px;
@@ -204,5 +204,7 @@ p{
     .m-nav-toggle{
         display: flex;
     }
+
+
 }
 
