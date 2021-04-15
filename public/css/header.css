@@ -15,6 +15,7 @@
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 1px;
+    margin-top: 40px;
 }
 
 .m-right{
@@ -50,9 +51,11 @@
     margin-right: 2px;
 }
 .m-link-center:hover{
+    text-decoration: none;
     border-bottom: 2px solid white;
 }
 .m-link:hover{
+    text-decoration: none;
     border-bottom: 2px solid white;
 }
 .m-nav-toggle{
@@ -125,6 +128,7 @@ p{
      font-weight: 600;
      line-height: 30px;
      display : block;
+     margin-top: 70px;
     }
     .ul-information{
         list-style: none;
@@ -133,7 +137,7 @@ p{
         font-size: 20px;
         line-height: 40px;
     }
-    .gmail{
+    .gmail:hover, .gmail{
         color: black;
     }
     h2{
@@ -147,42 +151,91 @@ p{
     .skill-container{
         background: rgb(228, 228, 228);
         width: 100%;
-        height: 450px;
+        height: 400px;
     }
     .skill-image{
         margin-left: 100px;
         margin-top: 50px;
         font-family: 'Roboto';
         font-size: 25px;
-       
+        opacity: 0;
     }
-    .image_1{
+    .skill-image.scroll{
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+    }
+    .image_3, .image_2, .image_1{
         width:220px;
         height:220px;
-        margin-top: 60px;
+        margin-top: 70px;
         margin-left: 100px;
         margin-right: 80px;
+        transition: all 0.3s ease-in-out;
     }
-    .image_2{
-        width:220px;
-        height:220x;
-        margin-top: 60px;
-        margin-left: 100px;
-        margin-right: 80px;
+    .image_3:hover, .image_2:hover , .image_1:hover{
+        width:225px;
+        height:225px;
     }
-    .image_3{
-        width:220px;
-        height:220px;
-        margin-top: 60px;
-        margin-left: 100px;
-        margin-right: 80px;
-    }
-    .php{
+    .php, .js, .py{
         position:relative;
         width:300px;
-        z-index:100;
+        top: 180px;
+        right: 220px;
+    }
+    nav a:hover {
+        color: white;
     }
 
+    h1{
+    
+    text-transform: uppercase;
+    
+    }
+    .skill-title{
+        margin: 0;padding: 0;
+        margin-top: 150px;
+        float: left;
+        font-size: 60px;
+        font-family: 'Roboto';
+        font-weight: bolder;
+    }
+
+    .project-title{
+        margin: 0;padding: 0;
+        float: left;
+        font-size: 60px;
+        font-family: 'Roboto';
+        font-weight: bolder;
+    }
+
+    .goldrush{
+        width:220px;
+        height:220px;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 80px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .text-goldrush{
+        float: right;
+        margin-top: 150px;
+        max-width: 200px;
+        text-align: center;
+        flex : 6;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .mention{
+        margin: 0;padding: 0;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+    }
 @media only screen and (max-width: 910px){
     .m-right{
         position: absolute;
@@ -192,6 +245,7 @@ p{
         background: rgb(31, 30, 30);
         transform: translateX(100%);
         transition: all 0.3s ease-in-out;
+       
     }
 
     .m-link{
